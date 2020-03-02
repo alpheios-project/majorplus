@@ -17,19 +17,24 @@ my %maj;
 while (<$maj>) {
   chomp;
   my ($lemma, $def, $source) = split /\|/;
-  $def =~ s/\n|\r//;
-  $maj{$lemma} = [ $def, $source ];
+  if ($source ne 'LSJ') {
+    $maj{$lemma} = [ $def, $source ];
+  }
 }
 
+my @to_add;
 for my $lemma (keys %lsj) {
   my $maj_lemma = $lemma;
   $maj_lemma =~ s/\d+$//;
   $maj_lemma =~ s/^\@//;
-  if ($lsj{$lemma} && ! exists $maj{$maj_lemma} && $lsj{$lemma} ne '@') {
-    $maj{$maj_lemma} = [ $lsj{$lemma}, 'LSJ' ];
-  } elsif (! $lsj{$lemma}) {
-    warn "Skipping $lemma $lsj{$lemma}\n";
-  }
+  next if exists $maj{$lemma}; # prefer the major lemma over lsj
+  next if exists $maj{$maj_lemma}; # if we already have this lemma, keep it
+  next if ! $lsj{$lemma};
+  push @to_add, [ $lemma, $lsj{$lemma}, 'LSJ' ];
+}
+
+for my $lemma (@to_add) { 
+  $maj{$lemma->[0]} = [$lemma->[1], $lemma->[2]];
 }
 
 for my $lemma (sort keys %maj) {

@@ -1,7 +1,8 @@
 #!/usr/bin/perl
+use Data::Dumper;
 
 
-open (my $maj, "<", "../dat/major.dat") or die $!;
+open (my $maj, "<", "../dat/grc-mjp-defs.dat") or die $!;
 open (my $lsj, "<", "../../lsj/dat/grc-lsj-defs.dat") or die $!;
 
 my %lsj;
@@ -17,18 +18,22 @@ while (<$maj>) {
   chomp;
   my ($lemma, $def, $source) = split /\|/;
   $def =~ s/\n|\r//;
-  $maj{$lemma} = [ $def, 'Major' ];
+  $maj{$lemma} = [ $def, $source ];
 }
 
 for my $lemma (keys %lsj) {
-  $lemma =~ s/\d+$//;
-  $lemma =~ s/$\@//;
-  if ($lsj{$lemma} && ! exists $maj{$lemma} && $lsj{$lemma} ne '@') {
-    $maj{$lemma} = [ $lsj{$lemma}, 'LSJ' ];
+  my $maj_lemma = $lemma;
+  $maj_lemma =~ s/\d+$//;
+  $maj_lemma =~ s/^\@//;
+  if ($lsj{$lemma} && ! exists $maj{$maj_lemma} && $lsj{$lemma} ne '@') {
+    $maj{$maj_lemma} = [ $lsj{$lemma}, 'LSJ' ];
+  } elsif (! $lsj{$lemma}) {
+    warn "Skipping $lemma $lsj{$lemma}\n";
   }
 }
 
 for my $lemma (sort keys %maj) {
   print "$lemma|$maj{$lemma}[0]|$maj{$lemma}[1]\n";
 }
+
 

@@ -187,8 +187,8 @@
 @εὐωπός|friendly|LSJ
 @εὐωπός1|friendly|LSJ
 @εὐωπός2|sea-fish|LSJ
-@εὐώνυμος|of good name, honoured|LSJ
-@εὐώνυμος1|of good name, honoured|LSJ
+@εὐώνυμος|of good name, on the left side|LSJ
+@εὐώνυμος1|of good name, on the left side|LSJ
 @εὐώνυμος2|spindle-tree, Euonymus europaeus|LSJ
 @εὔκηλος|free from care, at one's ease|LSJ
 @εὔκηλος1|free from care, at one's ease|LSJ
@@ -267,8 +267,8 @@
 @καταδεής1|wanting in, lacking|LSJ
 @καταδεής2|timid|LSJ
 @κατακλάω2|break short, snap off|LSJ
-@καταλέγω|lay down|LSJ
-@καταλέγω1|lay down|LSJ
+@καταλέγω|recount, reckon|LSJ
+@καταλέγω1|recount, reckon|LSJ
 @καταλέγω2|recount, tell at length and in order|LSJ
 @καταλεύω|stone to death|LSJ
 @καταλεύω1|stone to death|LSJ
@@ -1382,8 +1382,8 @@
 @ἔξειμι|go out, come out|LSJ
 @ἔξειμι1|go out, come out|LSJ
 @ἔξειμι2|sum|LSJ
-@ἔξοδος|going out|LSJ
-@ἔξοδος1|going out|LSJ
+@ἔξοδος|expedition, procession|LSJ
+@ἔξοδος1|expedition, procession|LSJ
 @ἔξοδος2|promoting the passage|LSJ
 @ἔπειμι|sum|LSJ
 @ἔπειμι1|sum|LSJ
@@ -8052,7 +8052,7 @@
 διαρκής|sufficient|LSJ
 διαρκούντως|sufficiently|LSJ
 διαρμόζω|distribute in various places|LSJ
-διαρπάζω|tear in pieces|LSJ
+διαρπάζω|plunder|LSJ
 διαρπαγή|plundering|LSJ
 διαρράπτω|sew through or together|LSJ
 διαρρέμβομαι|dawdle|LSJ
@@ -10880,7 +10880,7 @@
 δόρκων|ship|LSJ
 δόρπιος|belonging to the feast|LSJ
 δόρπον|evening meal|LSJ
-δόρυ|spear|Major
+δόρυ|a stem, tree, spear shaft|Major
 δόρωσις|plastering|LSJ
 δόσιμος|liable to be surrendered as billets|LSJ
 δόσις|giving|LSJ
@@ -15588,7 +15588,7 @@
 κένωσις|emptying, depletion|LSJ
 κέπφος|stormy petrel, Thalassidroma pelagica|LSJ
 κέραμος|potter's earth, potter's clay|LSJ
-κέρας|horn|Major
+κέρας|the horn of an animal, the wing of an army|Major
 κέρασμα|mixture|LSJ
 κέρδος|gain, profit|LSJ
 κέρεβρον|cerebrum|LSJ
@@ -22870,7 +22870,7 @@
 λέων|lion|LSJ
 λέως|entirely, wholly, at all|LSJ
 λέως2|entirely, wholly, at all|LSJ
-λήγω|stay, abate|LSJ
+λήγω|end, stop|LSJ
 λήδανον|gum-ladanum|LSJ
 λήθαιος|of or causing forgetfulness|LSJ
 λήθαργος|forgetful|LSJ
@@ -24761,8 +24761,8 @@
 λόχησις|waylaying, entrapping|LSJ
 λόχιος|of or belonging to child-birth|LSJ
 λόχμη|thicket, copse|LSJ
-λόχος|ambush|LSJ
-λόχος2|ambush|LSJ
+λόχος|ambush, armed band|LSJ
+λόχος2|ambush, armed band|LSJ
 λύβερνος|war-galley|LSJ
 λύγγιος|of a lynx|LSJ
 λύγδη|white poplar|LSJ
@@ -50457,7 +50457,7 @@
 συντρέφω|feed together or besides|LSJ
 συντρέχεια|agreement|LSJ
 συντρέχω|run together so as to meet|LSJ
-συντρίβω|rub together|LSJ
+συντρίβω|shatter, crush|LSJ
 συντρίκλινος|reclining at the same table|LSJ
 συντραγῳδέω|help|LSJ
 συντρανόομαι|to be made clear together|LSJ
@@ -51626,7 +51626,7 @@
 τάνταλος|of or belonging to T.|LSJ
 τάνυθριξ|long-haired, shaggy|LSJ
 τάνυμαι|to be stretched|LSJ
-τάξις|arrangement, order|Major
+τάξις|deployment, order of battle|Major
 τάξος|yew, Taxus baccata|LSJ
 τάπης|carpet, rug|LSJ
 τάραγμα|disquietude|LSJ
@@ -65253,7 +65253,7 @@
 ἀντίον2|@|LSJ
 ἀντίος|set against|LSJ
 ἀντίπαις|like a child|LSJ
-ἀντίπαλος|wrestling against|LSJ
+ἀντίπαλος|matched, balanced|LSJ
 ἀντίπεμψις|sending back|LSJ
 ἀντίπετρος|like stone, rocky|LSJ
 ἀντίπηξ|wheeled cradle or perambulator|LSJ
@@ -68407,7 +68407,7 @@
 ἀπορέγω|stretch out|LSJ
 ἀπορέπω|slink away|LSJ
 ἀπορέω2|@|LSJ
-ἀπορία|helplessness|Major
+ἀπορία|difficulty, perplexity, being at a loss, helplessness|Major
 ἀποργάζω|work up|LSJ
 ἀποργής|wrathful|LSJ
 ἀποργίζομαι|to be angry|LSJ
@@ -80743,7 +80743,7 @@
 ἐπιτέταρτος|of|LSJ
 ἐπιτέχνημα|contrivance|LSJ
 ἐπιτέχνησις|contrivance for|LSJ
-ἐπιτήδειος|convenient|Major
+ἐπιτήδειος|convenient, useful, necessary|Major
 ἐπιτήδευμα|pursuit, business, custom|LSJ
 ἐπιτήδευσις|devotion or attention to|LSJ
 ἐπιτήθη|great-grandmother|LSJ
@@ -86101,7 +86101,7 @@
 ἴδη1|@|LSJ
 ἴδη2|@|LSJ
 ἴδηαι|beautiful|LSJ
-ἴδιος|oneʹs own|Major
+ἴδιος|private, personal|Major
 ἴδισις|sweating, perspiring|LSJ
 ἴδμων|having knowledge of|LSJ
 ἴδρις|experienced, knowing, skilful|LSJ
@@ -92558,7 +92558,7 @@
 ὥριμος|ripe|LSJ
 ὥριος|produced in season|LSJ
 ὥσπερ|just as, as if|Major
-ὥστε|that (result)|Major
+ὥστε|as a result, therefore|Major
 ὥτε|Beitr.z.Lehre vom Gr.Akzent|LSJ
 ὦ|O! oh!|Major
 ὦβος|Unknown meaning|LSJ
@@ -93324,4 +93324,4 @@
 Καρχηδόνιος|Carthaginian|LSJ
 Λακεδαιμόνιος|Lacedaemonian|LSJ
 Ἀθηναῖος|Athenian|LSJ
-
+ἐκμίτνω|see ἐκπίπτω [fall out, be driven out]|LSJ
